@@ -1,0 +1,188 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6317,        178]
+NotebookOptionsPosition[      5870,        163]
+NotebookOutlinePosition[      6272,        179]
+CellTagsIndexPosition[      6229,        176]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"L1", "=", 
+   RowBox[{"{", "}"}]}], ";", 
+  RowBox[{"L2", "=", 
+   RowBox[{"{", "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.934459610579032*^9, 3.934459610581021*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"fa626261-1891-4fb1-91a5-c2e0c7bee9f6"],
+
+Cell[BoxData[
+ RowBox[{"For", "[", 
+  RowBox[{
+   RowBox[{"\[Alpha]", "=", "0.264439"}], ",", 
+   RowBox[{"\[Alpha]", "<", "1"}], ",", 
+   RowBox[{"\[Alpha]", "=", 
+    RowBox[{"\[Alpha]", "+", "0.001"}]}], ",", 
+   RowBox[{
+    RowBox[{"L", "=", 
+     RowBox[{"FindRoot", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"v1", "^", "\[Alpha]"}], ")"}], "*", 
+             RowBox[{"Cos", "[", 
+              RowBox[{
+               RowBox[{"(", "\[Alpha]", ")"}], "*", 
+               RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}], ")"}], "+", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"Cos", "[", 
+                 RowBox[{"2", " ", "v1"}], "]"}], "-", 
+                RowBox[{"Cos", "[", "v1", "]"}]}], ")"}], "/", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"Sin", "[", 
+                 RowBox[{"2", " ", "v1"}], "]"}], "-", 
+                RowBox[{"Sin", "[", "v1", "]"}]}], ")"}]}], ")"}], "*", 
+            RowBox[{"(", 
+             RowBox[{"v1", "^", "\[Alpha]"}], ")"}], "*", 
+            RowBox[{"Sin", "[", 
+             RowBox[{
+              RowBox[{"(", "\[Alpha]", ")"}], " ", 
+              RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}], "-", 
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"v2", "^", "\[Alpha]"}], ")"}], "*", 
+             RowBox[{"Cos", "[", 
+              RowBox[{
+               RowBox[{"(", "\[Alpha]", ")"}], "*", 
+               RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}], ")"}], "-", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"Cos", "[", 
+                 RowBox[{"2", " ", "v2"}], "]"}], "-", 
+                RowBox[{"Cos", "[", "v2", "]"}]}], ")"}], "/", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"Sin", "[", 
+                 RowBox[{"2", " ", "v2"}], "]"}], "-", 
+                RowBox[{"Sin", "[", "v2", "]"}]}], ")"}]}], ")"}], "*", 
+            RowBox[{"(", 
+             RowBox[{"v2", "^", "\[Alpha]"}], ")"}], "*", 
+            RowBox[{"Sin", "[", 
+             RowBox[{
+              RowBox[{"(", "\[Alpha]", ")"}], " ", 
+              RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}]}], "==", "0"}], ",", 
+         RowBox[{
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"v1", "^", 
+                RowBox[{"(", "\[Alpha]", ")"}]}], ")"}], "*", 
+              RowBox[{"Sin", "[", 
+               RowBox[{
+                RowBox[{"(", "\[Alpha]", ")"}], " ", 
+                RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}], ")"}], "/", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"Sin", "[", 
+               RowBox[{"2", " ", "v1"}], "]"}], "-", 
+              RowBox[{"Sin", "[", "v1", "]"}]}], ")"}]}], "-", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"v2", "^", 
+                RowBox[{"(", "\[Alpha]", ")"}]}], ")"}], "*", 
+              RowBox[{"Sin", "[", 
+               RowBox[{
+                RowBox[{"(", "\[Alpha]", ")"}], " ", 
+                RowBox[{"\[Pi]", "/", "2"}]}], "]"}]}], ")"}], "/", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"Sin", "[", 
+               RowBox[{"2", " ", "v2"}], "]"}], "-", 
+              RowBox[{"Sin", "[", "v2", "]"}]}], ")"}]}]}], "==", "0"}]}], 
+        "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"v1", ",", "0.9"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"v2", ",", "5.0"}], "}"}]}], "}"}]}], "]"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"L1", "=", 
+     RowBox[{"Append", "[", 
+      RowBox[{"L1", ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Alpha]", ",", 
+         RowBox[{"L", "[", 
+          RowBox[{"[", "1", "]"}], "]"}]}], "}"}]}], "]"}]}], ";", 
+    "\[IndentingNewLine]", 
+    RowBox[{"L2", "=", 
+     RowBox[{"Append", "[", 
+      RowBox[{"L2", ",", 
+       RowBox[{"{", 
+        RowBox[{"\[Alpha]", ",", 
+         RowBox[{"L", "[", 
+          RowBox[{"[", "2", "]"}], "]"}]}], "}"}]}], "]"}]}], ";"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9344596211474223`*^9, 3.9344596211504164`*^9}, {
+   3.9344601052458115`*^9, 3.9344601087926064`*^9}, {3.9344603460447474`*^9, 
+   3.9344603594123955`*^9}, {3.934460435389284*^9, 3.934460464539261*^9}, {
+   3.934462039573843*^9, 3.934462057666133*^9}, 3.9344621755475388`*^9, {
+   3.9345464125404243`*^9, 3.934546424919531*^9}, {3.934546477985326*^9, 
+   3.9345464793655415`*^9}, 3.935555238413042*^9, {3.93555527053924*^9, 
+   3.9355552757671285`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"a78564ef-130e-4b49-84b4-c79a7b4227d3"]
+},
+WindowSize->{1012.5, 501.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"125ba8db-e461-4245-bd84-b842e4665ab5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 284, 7, 28, "Input",ExpressionUUID->"fa626261-1891-4fb1-91a5-c2e0c7bee9f6"],
+Cell[845, 29, 5021, 132, 181, "Input",ExpressionUUID->"a78564ef-130e-4b49-84b4-c79a7b4227d3"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,114 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3734,        106]
+NotebookOptionsPosition[      3254,         89]
+NotebookOutlinePosition[      3656,        105]
+CellTagsIndexPosition[      3613,        102]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   SuperscriptBox[
+    SubscriptBox["\[Tau]", "2"], "*"], " ", "value"}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9193539331991568`*^9, 
+  3.9193539654250507`*^9}},ExpressionUUID->"a6c88be3-720a-4af4-abb2-\
+13502ff4b903"],
+
+Cell[BoxData[
+ TemplateBox[<|"shortenedBoxes" -> TagBox[
+     SuperscriptBox[
+      RowBox[{"(", 
+        FractionBox[
+         RowBox[{
+           RowBox[{
+             SuperscriptBox["2", "\[Alpha]"], " ", 
+             SuperscriptBox[
+              RowBox[{"ArcCos", "[", 
+                RowBox[{"-", 
+                  SqrtBox[
+                   RowBox[{
+                    FractionBox["5", "8"], "+", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    SqrtBox[
+                    TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]]}], "-", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    SqrtBox[
+                    RowBox[{
+                    TemplateBox[{"9"}, "OutputSizeLimit`Skeleton"], "+", 
+                    FractionBox[
+                    TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], 
+                    TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]]}]]}]}]]}],
+                 "]"}], "\[Alpha]"], " ", 
+             RowBox[{"Cos", "[", 
+               FractionBox[
+                RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}]}], "+", 
+           FractionBox[
+            RowBox[{
+              SuperscriptBox["2", "\[Alpha]"], " ", 
+              TemplateBox[{"2"}, "OutputSizeLimit`Skeleton"], " ", 
+              RowBox[{"Sin", "[", 
+                FractionBox[
+                 RowBox[{"\[Pi]", 
+                   TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], 
+                   TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]}], "2"], 
+                "]"}]}], 
+            RowBox[{
+              RowBox[{"-", 
+                RowBox[{"Sin", "[", 
+                  RowBox[{"2", " ", 
+                    TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"]}], "]"}]}],
+               "+", 
+              RowBox[{"Sin", "[", 
+                TemplateBox[{"1"}, "OutputSizeLimit`Skeleton"], "]"}]}]]}], 
+         "a"], ")"}], 
+      FractionBox["1", "\[Alpha]"]], Short[#, 8]& ], "line" -> 63, 
+   "sessionID" -> 28921662590382613637, "byteCount" -> 943184, "size" -> 8, 
+   "stored" -> False, "expr" -> Missing["NotStored"], "wrap" -> 
+   OutputSizeLimit`Defer, "version" -> 1|>,
+  "OutputSizeLimitTemplate"]], "Output",
+ CellChangeTimes->{3.936017793894349*^9, 3.936018447011411*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"a96dfc63-9a76-4f25-9ae9-5dee76bad91f"]
+}, Open  ]]
+},
+WindowSize->{1012.5, 501.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9f3c5afb-d0a8-44c4-948a-b212b8b62599"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 262, 7, 28, "Input",ExpressionUUID->"a6c88be3-720a-4af4-abb2-13502ff4b903"],
+Cell[845, 31, 2393, 55, 145, "Output",ExpressionUUID->"a96dfc63-9a76-4f25-9ae9-5dee76bad91f"]
+}, Open  ]]
+}
+]
+*)
+

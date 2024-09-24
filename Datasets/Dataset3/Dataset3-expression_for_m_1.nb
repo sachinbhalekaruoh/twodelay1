@@ -1,0 +1,2743 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    115764,       2735]
+NotebookOptionsPosition[    115404,       2721]
+NotebookOutlinePosition[    115806,       2737]
+CellTagsIndexPosition[    115763,       2734]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"-", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "2"}], " ", 
+          RowBox[{"ArcCos", "[", 
+           RowBox[{"-", 
+            RowBox[{"\[Sqrt]", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox["9", "16"], "+", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "64"], "+", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "32"], "-", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                   RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                  ")"}]}]}]}], ")"}]}]}], "]"}], " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"2", " ", 
+            RowBox[{"ArcCos", "[", 
+             RowBox[{"-", 
+              RowBox[{"\[Sqrt]", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox["9", "16"], "+", 
+                 RowBox[{
+                  FractionBox["1", "2"], " ", 
+                  RowBox[{"\[Sqrt]", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+                 RowBox[{
+                  FractionBox["1", "2"], " ", 
+                  RowBox[{"\[Sqrt]", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "32"], "-", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                    ")"}]}]}]}], ")"}]}]}], "]"}]}], "]"}]}], "+", 
+         RowBox[{"4", " ", 
+          RowBox[{"ArcCos", "[", 
+           RowBox[{"-", 
+            RowBox[{"\[Sqrt]", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox["9", "16"], "+", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "64"], "+", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "32"], "-", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                   RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                  ")"}]}]}]}], ")"}]}]}], "]"}], " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{"4", " ", 
+            RowBox[{"ArcCos", "[", 
+             RowBox[{"-", 
+              RowBox[{"\[Sqrt]", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox["9", "16"], "+", 
+                 RowBox[{
+                  FractionBox["1", "2"], " ", 
+                  RowBox[{"\[Sqrt]", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+                 RowBox[{
+                  FractionBox["1", "2"], " ", 
+                  RowBox[{"\[Sqrt]", 
+                   RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "32"], "-", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                    ")"}]}]}]}], ")"}]}]}], "]"}]}], "]"}]}], "+", 
+         RowBox[{"\[Alpha]", " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Sin", "[", 
+             RowBox[{"2", " ", 
+              RowBox[{"ArcCos", "[", 
+               RowBox[{"-", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["9", "16"], "+", 
+                   RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+                   RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "32"], "-", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                    ")"}]}]}]}], ")"}]}]}], "]"}]}], "]"}], "-", 
+            RowBox[{"Sin", "[", 
+             RowBox[{"4", " ", 
+              RowBox[{"ArcCos", "[", 
+               RowBox[{"-", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["9", "16"], "+", 
+                   RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+                   RowBox[{
+                    FractionBox["1", "2"], " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "32"], "-", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                    ")"}]}]}]}], ")"}]}]}], "]"}]}], "]"}]}], ")"}]}]}], 
+        ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"\[Alpha]", " ", 
+          RowBox[{"Cos", "[", 
+           FractionBox[
+            RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}]}], "+", 
+         RowBox[{"\[Alpha]", " ", 
+          RowBox[{"Cos", "[", 
+           RowBox[{
+            FractionBox[
+             RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "+", 
+            RowBox[{"6", " ", 
+             RowBox[{"ArcCos", "[", 
+              RowBox[{"-", 
+               RowBox[{"\[Sqrt]", 
+                RowBox[{"(", 
+                 RowBox[{
+                  FractionBox["9", "16"], "+", 
+                  RowBox[{
+                   FractionBox["1", "2"], " ", 
+                   RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+                  RowBox[{
+                   FractionBox["1", "2"], " ", 
+                   RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "32"], "-", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                    RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                    ")"}]}]}]}], ")"}]}]}], "]"}]}]}], "]"}]}], "-", 
+         RowBox[{"6", " ", 
+          RowBox[{"ArcCos", "[", 
+           RowBox[{"-", 
+            RowBox[{"\[Sqrt]", 
+             RowBox[{"(", 
+              RowBox[{
+               FractionBox["9", "16"], "+", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "64"], "+", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "-", 
+               RowBox[{
+                FractionBox["1", "2"], " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "32"], "-", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "-", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}], "+", 
+                   RowBox[{
+                    RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["27", "8"]}], "+", 
+                    RowBox[{
+                    FractionBox["1", "8"], " ", 
+                    RowBox[{"(", 
+                    RowBox[{"26", "+", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+                    ")"}], "/", 
+                    RowBox[{"(", 
+                    RowBox[{"4", " ", 
+                    RowBox[{"\[Sqrt]", 
+                    RowBox[{"(", 
+                    RowBox[{
+                    FractionBox["11", "64"], "+", 
+                    FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                    RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+                  ")"}]}]}]}], ")"}]}]}], "]"}], " ", 
+          RowBox[{"Sin", "[", 
+           FractionBox[
+            RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}]}]}], ")"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox["7", "16"], "-", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"\[Sqrt]", 
+           RowBox[{"(", 
+            RowBox[{
+             FractionBox["11", "64"], "+", 
+             FractionBox[
+              RowBox[{"73", "+", 
+               RowBox[{"48", " ", 
+                RowBox[{"Cos", "[", 
+                 RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+              RowBox[{"64", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"571", "+", 
+                  RowBox[{"728", " ", 
+                   RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                  RowBox[{"32", " ", 
+                   SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                  RowBox[{"64", " ", 
+                   SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                RowBox[{"1", "/", "3"}]]}]], "+", 
+             RowBox[{
+              FractionBox["1", "64"], " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                RowBox[{"571", "+", 
+                 RowBox[{"728", " ", 
+                  RowBox[{"Cos", "[", 
+                   RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                 RowBox[{"32", " ", 
+                  SuperscriptBox[
+                   RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                 RowBox[{"64", " ", 
+                  SqrtBox[
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+               RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], "+", 
+         RowBox[{
+          FractionBox["1", "2"], " ", 
+          RowBox[{"\[Sqrt]", 
+           RowBox[{"(", 
+            RowBox[{
+             FractionBox["11", "32"], "-", 
+             FractionBox[
+              RowBox[{"73", "+", 
+               RowBox[{"48", " ", 
+                RowBox[{"Cos", "[", 
+                 RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+              RowBox[{"64", " ", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"571", "+", 
+                  RowBox[{"728", " ", 
+                   RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                  RowBox[{"32", " ", 
+                   SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                  RowBox[{"64", " ", 
+                   SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                RowBox[{"1", "/", "3"}]]}]], "-", 
+             RowBox[{
+              FractionBox["1", "64"], " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                RowBox[{"571", "+", 
+                 RowBox[{"728", " ", 
+                  RowBox[{"Cos", "[", 
+                   RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                 RowBox[{"32", " ", 
+                  SuperscriptBox[
+                   RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                 RowBox[{"64", " ", 
+                  SqrtBox[
+                   RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+               RowBox[{"1", "/", "3"}]]}], "+", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"-", 
+                 FractionBox["27", "8"]}], "+", 
+                RowBox[{
+                 FractionBox["1", "8"], " ", 
+                 RowBox[{"(", 
+                  RowBox[{"26", "+", 
+                   RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], ")"}]}]}], 
+               ")"}], "/", 
+              RowBox[{"(", 
+               RowBox[{"4", " ", 
+                RowBox[{"\[Sqrt]", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox["11", "64"], "+", 
+                   FractionBox[
+                    RowBox[{"73", "+", 
+                    RowBox[{"48", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}]}], 
+                    RowBox[{"64", " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]], "+", 
+                   RowBox[{
+                    FractionBox["1", "64"], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"571", "+", 
+                    RowBox[{"728", " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}]}], "+", 
+                    RowBox[{"32", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], "2"]}], "-", 
+                    RowBox[{"64", " ", 
+                    SqrtBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "123"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "4"]}], 
+                    "+", 
+                    RowBox[{"2", " ", 
+                    SuperscriptBox[
+                    RowBox[{"Cos", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], "2"], 
+                    " ", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "]"}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"Sin", "[", 
+                    FractionBox[
+                    RowBox[{"\[Pi]", " ", "\[Alpha]"}], "2"], "]"}], 
+                    "4"]}]}]]}]}], ")"}], 
+                    RowBox[{"1", "/", "3"}]]}]}], ")"}]}]}], ")"}]}]}], 
+            ")"}]}]}]}], ")"}]}], ")"}]}], ")"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.9312587047681684`*^9, 3.9312587153816075`*^9}, 
+   3.9360200116714263`*^9},ExpressionUUID->"ee5a9cec-c6ea-4159-9a59-\
+d1dda5b75a35"]
+},
+WindowSize->{1012.5, 501.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ca5fb164-88d6-47aa-8bd5-343fb8f30b9e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 114842, 2699, 6303, "Input",ExpressionUUID->"ee5a9cec-c6ea-4159-9a59-d1dda5b75a35"]
+}
+]
+*)
+
